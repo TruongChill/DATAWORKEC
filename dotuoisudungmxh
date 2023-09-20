@@ -1,0 +1,25 @@
+import matplotlib.pyplot as plt
+
+# Dữ liệu
+categories = [
+    '  Primary School(6–10)',
+    '  Junior high school(10–15)',
+    '  High school(16–18)',
+    '  Collage(> 18 )'
+]
+quantity = [7, 31, 22, 10]
+
+# Vẽ biểu đồ
+plt.figure(figsize=(10, 6))  # Điều chỉnh kích thước của biểu đồ
+plt.bar(categories, quantity, width=0.6)  # Điều chỉnh chiều rộng của cột
+
+# Đặt tên cho trục x và trục y
+plt.xlabel('Statistics on age to start using social network')
+plt.ylabel('quantity (n)')
+
+# Hiển thị giá trị trên đỉnh của cột
+for i, val in enumerate(quantity):
+    plt.text(i, val, str(val), ha='center', va='bottom')
+
+# Hiển thị biểu đồ
+plt.show()

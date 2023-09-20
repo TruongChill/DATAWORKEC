@@ -1,0 +1,28 @@
+import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+
+# Data
+categories = [
+    'Engaging in social media as work',
+    'Communication and exchange',
+    'Entertainment',
+    'Updating news about lifestyle',
+    'Updating news about industry and work',
+    'Learning additional skills: English, cooking,...',
+    'Sales',
+    'Following and updating news about celebrities, idols'
+]
+quantity = [26, 70, 62, 35, 44, 32, 9, 11]
+percentage = [37.14, 100, 88.57, 50, 62.86, 45.71, 12.86, 15.71]
+
+# Create a pie chart
+plt.pie(quantity, labels=categories, autopct='%1.2f%%')
+
+# Set the aspect ratio to be equal so that the pie is drawn as a circle
+plt.axis('equal')
+
+# Set the title
+plt.title('Purpose of Social Media Usage (n=70)')
+
+# Display the pie chart
+plt.show()
