@@ -12,6 +12,6 @@ Figure_1.png
   
   <img src="Figure_1.png" alt="Description of the image">
   
-  <a href="https://www.example.com">Visit Example.com</a>
+
 </body>
 </html>
