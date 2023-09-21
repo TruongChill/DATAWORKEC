@@ -1,6 +1,4 @@
 <link rel="stylesheet" type="text/css" href="style.css">
-
-
 <html>
 <head>
   <title>THE IMPACT OF SOCIAL MEDIA ON STUDENTS 21080341</title>
