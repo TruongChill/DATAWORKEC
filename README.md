@@ -1,4 +1,6 @@
+<link rel="stylesheet" type="text/css" href="style.css">
 
+Hãy đảm bảo rằng tên tệp CSS và đường dẫn tới tệp CSS đúng với tên và đường dẫn mà bạn đã chọn.
 <html>
 <head>
   <title>THE IMPACT OF SOCIAL MEDIA ON STUDENTS 21080341</title>
