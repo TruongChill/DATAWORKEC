@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
   <title>THE IMPACT OF SOCIAL MEDIA ON STUDENTS 21080341</title>
@@ -10,9 +10,7 @@
       align-items: center;
     }
     
-    img {
-      margin: 20px;
-    }
+    .img {margin: 20px}
   </style>
 </head>
 <body>
